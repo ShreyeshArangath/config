@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define paths
-CONFIG_DIR="$HOME/Library/Application\ Support/Code/User"  # Adjust for your platform
+CONFIG_DIR="$HOME/Library/Application Support/Code/User"  # Adjust for your platform
 REPO_DIR="$HOME/projects/config"
-
+echo "The config dir configured is: $CONFIG_DIR"
 # Files to sync
 FILES=("settings.json" "keybindings.json")
 
