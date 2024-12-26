@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define paths
-CONFIG_DIR="$HOME/.config/Code/User"  # Adjust for your platform
+CONFIG_DIR="$HOME/Library/Application\ Support/Code/User"  # Adjust for your platform
 REPO_DIR="$HOME/projects/config"
 
 # Files to sync
