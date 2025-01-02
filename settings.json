@@ -6,7 +6,6 @@
   "editor.inlineSuggest.enabled": true,
   "update.showReleaseNotes": false,
   "window.zoomLevel": 1,
-  "remote.SSH.allowLocalServerDownload": true,
   "terminal.integrated.enablePersistentSessions": false,
   "remote.SSH.connectTimeout": 45,
   "yaml.schemas": {
@@ -19,18 +18,17 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.linkedEditing": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 0.5,
   "launch": {},
   "[json]": {},
-  "workbench.statusBar.visible": false,
-  "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
-  "update.showReleaseNotes": false,
   "zenMode.hideLineNumbers": false,
   "editor.lineNumbers": "relative",
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
+  "vim.showcmd": true,
+  "vim.enableNeovim": false,
+  "vim.statusBarColorControl": true,
   "vim.normalModeKeyBindingsNonRecursive": [
     // NAVIGATION
     // switch b/w buffers
@@ -246,5 +244,19 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingForeground": "#ffffff"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": false
+  }
 }
